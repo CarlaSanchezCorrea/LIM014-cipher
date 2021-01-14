@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Caesar Cipher",
+    "description": "Lab_Project_CaesarCipher",
+    "version": "1.0",
+    "browser_action":{
+        "default_popup": "popup.html",
+        "default_tittle": "Visita la Página_Web"
+    }
+}
