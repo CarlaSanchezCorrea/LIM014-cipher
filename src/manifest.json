@@ -6,5 +6,17 @@
     "browser_action":{
         "default_popup": "popup.html",
         "default_tittle": "Visita la Página_Web"
-    }
+    },
+    "permissions": [
+        "activeTab"
+      ],
+    "content_scripts": [
+        {
+          "matches": [
+              "<all_urls>"
+          ],
+          "css": ["styleExtension.css"],
+          "js": ["popup.js"]
+        }
+      ]
 }

@@ -1,34 +1,41 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleExtension.css">
-    <script src="appExtension.js"></script>
-    <title>Extension_Caesar_Cipher</title>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="popup.js" type="text/javascript"></script>
+    <title>Caesar Cipher</title>
+  </head>
 <body>
     <head>
-        <button>i</button>
-        <span>Visita nuestra Página Web para más funciones      
-        </span>
+        <div class="mensaje">
+            <a  tabindex="-1" target="_blank" href="index.html"><img src="icon-extension.png" alt="" class="link-external">
+            </a>
+            <span class="CaesarCipher-Web">Visita nuestra Página Web para más funciones      
+            </span>
+        </div>
     </head>
     <article>
-        <section>
-            <input placeholder="...Ingresa el mensaje aquí...">
-            
-        </section>
-        <section>
-            <p>Encriptar</p>
-            <button>"Seleecionar"</button>
-            <p>Desencriptar</p>
-        </section>
-        <section>   
-            <input placeholder="Pre visizualizar el mensaje">
-        </section>
-        <section>
-            <button>Copiar</button>
-            <button>Descargar clave</button>
-        </section>
+        <div class="container-2">
+            <section>
+                <input id="textarea" class="texto" placeholder="...Ingresa el mensaje aquí...">           
+            </section>
+            <section>
+                <p>Encriptar</p>
+                <button>"Seleccionar"</button>
+                <p>Desencriptar</p>
+            </section>
+            <section>
+                <p>E/D</p>
+            </section>
+            <section>   
+                <input class="texto" placeholder="Pre visizualizar el mensaje">
+            </section>
+            <section>
+                <button onclick="clear()">Copiar</button>
+                <button>Descargar clave</button>
+            </section>
+        </div>   
     </article>
+    
 </body>
 </html>

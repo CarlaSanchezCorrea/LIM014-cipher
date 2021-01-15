@@ -1,0 +1,35 @@
+*{
+    background-image: url(background.png);
+    color: white;
+ }
+ .mensaje{
+     display: flex;
+     width: 25em;
+     height: 1000emx;
+     padding: 0;
+ }
+.link-external {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    max-width: 2em;
+    max-height: 2em;
+}
+.CaesarCipher-Web {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container-2{
+    text-align: center;
+}
+.texto{
+    width: 80%;
+    padding: 6px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ad5a71;
+    color: steelblue;
+    font-size: 1.5em;
+}
