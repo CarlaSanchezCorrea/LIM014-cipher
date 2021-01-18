@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+}
+#logo{
+    display: flex;
+    width:  30vw;
+    height: 30vh;
+    margin: 23vh 0em 0em 7vw;
+    
+}
+.contenedor{
+    display: flex;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;  
+    margin: 0em 0em 0em 0em;
+}
+#cuerpo{
+    margin: -11em 0em 0em 47vw;
+}
+
+
+#abajo{
+    display: flex;
+    margin: 15% 0 0 0 ;
+}
+.arriba{
+    margin: 0em 0em 0em 0em;
+}
+.down{
+    text-align: right;
+    margin: -4em 0em 0em 70vw;
+}
