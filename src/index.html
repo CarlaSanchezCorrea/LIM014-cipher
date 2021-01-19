@@ -4,53 +4,46 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script> 
    
   </head>
   <body>
-    <!--Sección Fija en la parte Superior-->
-    <header>
+    <!--Sección Fija en la parte Izquierda-->
+    <header class="contenedor">
       <div>
-        <span>Logo</span>
-        <h1>Busqueda</h1>
-        <button>Desencriptar Rápido</button>
+        <img id="logo" src="Logo Cipher.png" alt="">
       </div>
     </header>
-    <!--Cuerpo de la Página-->
-    <article>
+    <!--Cuerpo de la Página (derecha)-->
+    <article class="contenedor" id="cuerpo">
       <section>
           <div>
-            <h3>Encripta o descifra la serie que gustes.
-              Variedad de encriptado Cipher.
-              Haz click para empezar, descarga al finalizar o copia el resultado.
+            <h3>Encripta o descifra la serie que gustes. <br>
+                Obtén una variedad de encriptado. <br>
+                Haz <a onclick="project()">click</a> para empezar, descarga al finalizar o copia el resultado. <br>
             </h3>
             <h3>
-              ¿Te gustaría conocer más?
-              Dale <span>click</span> para obtener una experiencia.
+              ¿Te gustaría conocer más?<br>
+              Dale <a onclick="project()">click</a> para obtener una experiencia. <br>
             </h3>
           </div>
-          
       </section>
     </article>
-    <!--Esta sección para cologar subMenú al costado-->
-    <aside>
-      <p>Pal'Costado</p>
-    </aside>
     <!--Pie de Página-->
-    <footer>
+    <footer id="abajo">
       <div>
-        <div>
-          <h4>©Caesar Cipher: Encriptar & Desencriptar 
+        <div class="arriba">
+            <h4>©Caesar Cipher: Encriptar & Desencriptar <br>
           @Design by Carla Sanchez Correa
           </h4>
         </div>
-        <div>
-          <h4>REDES SOCIALES  </h4>
-          <button>#iconFacebook</button>
-          <button>#iconInstagram</button>
-          <button>#iconGitHub</button>
+        <div class="down">
+            <h4>REDES SOCIALES  </h4>
+            <button>#iconFacebook</button>
+            <button>#iconInstagram</button>
+            <button>#iconGitHub</button>      
         </div>
-      </div>
-     
+      </div>     
     </footer>
   </body>
 </html>

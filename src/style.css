@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 *{
 }
+/*Para Index.html*/  
 #logo{
     display: flex;
-    width:  30vw;
+    width:  30.3vw;
     height: 30vh;
     margin: 23vh 0em 0em 7vw;
     
@@ -12,16 +13,21 @@
     display: flex;
     text-align: right;
     font-family: 'Raleway', sans-serif;  
+    font-size: 1.15em;
     margin: 0em 0em 0em 0em;
 }
 #cuerpo{
-    margin: -11em 0em 0em 47vw;
+    margin: -10em 0em 0em 47vw;
 }
-
-
+a{
+    color: red;
+}
+a:hover{
+    cursor: pointer;
+}
 #abajo{
     display: flex;
-    margin: 15% 0 0 0 ;
+    margin: 13% 0 0 0 ;
 }
 .arriba{
     margin: 0em 0em 0em 0em;
@@ -30,3 +36,35 @@
     text-align: right;
     margin: -4em 0em 0em 70vw;
 }
+/*Para Index2.html*/
+#logoHeader{
+    display: flex;
+    width:  20vw;
+    height: 20vh;
+}
+.posicion{
+    display: flex;
+    text-align: center;
+    margin: 0em 0em 0em 0em;
+    height: 15em;
+}
+#input {
+    width: 90%;
+    border-radius:6px;
+    font-family: 'Merienda','Rockwell Extra Bold','Rockwell Bold','monospace', 'cursive';
+    height: 35px;
+    margin: 2px;
+    text-align: left;
+    border-color: blue;
+    outline:none;
+    }
+input::placeholder {
+    text-align: center;
+}
+.words {
+    color: red;
+}
+ outline: none;
+}
+
+  

@@ -4,28 +4,49 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+
    
   </head>
   <body>
     <!--Sección Fija en la parte Superior-->
-    <header class="contenedor">
+    <header>
       <div>
-        <img id="logo" src="Logo Cipher.png" alt="">
+        <img id="logoHeader" src="Logo Cipher.png" alt="">
       </div>
     </header>
-    <!--Cuerpo de la Página-->
-    <article class="contenedor" id="cuerpo">
-      <section>
-          <div>
-            <h3>Encripta o descifra la serie que gustes. <br>
-                Obtén una variedad de encriptado. <br>
-                Haz click para empezar, descarga al finalizar o copia el resultado. <br>
-            </h3>
-            <h3>
-              ¿Te gustaría conocer más?<br>
-              Dale <span>click</span> para obtener una experiencia. <br>
-            </h3>
+    <!--Cuerpo de la Página (derecha)-->
+    <article>
+      <!--Texto para ENCRY OR DES-->
+      <section class="posicion">
+        <section>
+          <div >
+            <input id="input" oninput="start() type="text" placeholder="…Ingresa el mensaje aquí…">
           </div>
+        </section>
+        <!--Botón para E // D-->
+        <section>
+          <div class="option">
+            <span class="words">ENCRIPTAR</span>
+          </button>  
+            <span class="words">DESENCRIPTAR</span>
+          </div>
+        </section>
+        <!--Texto que ENCRY OR DES-->
+        <section>
+          <div class="changeOption">
+            <span>ENCRIPTAR/</span>
+            <span>/ DESENCRIPTAR</span> <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+        </section>
+        <!--Botones-->
+        <section>
+          <div class="botones">
+            <button>COPIAR</button>
+            <button>DESCARGAR CLAVE</button>
+          </div>
+        </section>
       </section>
     </article>
 
