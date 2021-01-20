@@ -1,3 +1,3 @@
-function project(){
-  location.href="index2.html"
-}
+import cipher from './cipher.js';
+
+console.log(cipher);

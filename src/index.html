@@ -4,45 +4,74 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js"></script> 
+    <script src="index.js"></script>
+
    
   </head>
-  <body>
-    <!--Sección Fija en la parte Izquierda-->
-    <header class="contenedor">
-      <div>
-        <img id="logo" src="Logo Cipher.png" alt="">
-      </div>
-    </header>
-    <!--Cuerpo de la Página (derecha)-->
-    <article class="contenedor" id="cuerpo">
+  <body> 
+    <article>
+      <!--Cuerpo de la Página (izquierda)-->
       <section>
-          <div>
-            <h3>Encripta o descifra la serie que gustes. <br>
-                Obtén una variedad de encriptado. <br>
-                Haz <a onclick="project()">click</a> para empezar, descarga al finalizar o copia el resultado. <br>
-            </h3>
-            <h3>
-              ¿Te gustaría conocer más?<br>
-              Dale <a onclick="project()">click</a> para obtener una experiencia. <br>
-            </h3>
-          </div>
+        <div class="logo-container">
+          <span>HELLO,</span>
+            <ul class="setout">
+              <li>ENCRYPT</li>  
+              <li>DECRYPT</li>
+              <li style="text-align: center;">CODE</li>
+            </ul>
+      </section>
+      <!--Cuerpo de la Página (derecha)-->
+      <!--Texto a Ingresar-->
+      <section class="container">
+        <div >
+          <input id="input" oninput="start()" type="text" placeholder="…Ingresa el mensaje aquí…">
+        </div >  
+        <!--Boton Shift-->
+        <div id="shift"><b>SHIFT:</b>
+          <input type="number" id="key" value = "1" />
+        </div>
+        <!--Botón para E // D-->
+        <div class="chooseCategory-btn">
+            <a class="category" onclick="encrypt()">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              ENCRYPT
+            </a>  
+            <a  class="category"  onclick="decrypt()">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              DECRYPT
+            </a>
+        </div>
+        <!--Texto que ENCRY OR DES-->
+        <div class="changeOption">
+          <span>ENCRYPT/</span>
+          <span>/ DECRYPT</span> <br>
+          <input id ="output" type="text" placeholder="Pre visualizar el mensaje">
+        </div> 
+        <!--Botones-->
+        <div class="botones">
+          <button class="btn">Copy</button>
+          <button class="btn">Download</button>
+        </div>
       </section>
     </article>
     <!--Pie de Página-->
-    <footer id="abajo">
-      <div>
-        <div class="arriba">
-            <h4>©Caesar Cipher: Encriptar & Desencriptar <br>
-          @Design by Carla Sanchez Correa
-          </h4>
-        </div>
-        <div class="down">
-            <h4>REDES SOCIALES  </h4>
-            <button>#iconFacebook</button>
-            <button>#iconInstagram</button>
-            <button>#iconGitHub</button>      
-        </div>
+    <footer>
+      <div class="lower-fixed-container">
+        <h4>©Caesar Cipher: Encrypt & Decrypt <br>
+            @Carla Sanchez Correa
+        </h4>
+        <ul>Social Media
+          <li>#iconFacebook</li>
+          <li>#iconInstagram</li>
+          <li>#iconGitHub</li>
+        </ul> 
+         
       </div>     
     </footer>
   </body>
