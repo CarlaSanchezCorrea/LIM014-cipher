@@ -1,9 +1,12 @@
-
+*{
+  width: 5%;
+  height: 10%;
+} 
 .logo-container{
     display: flex;
-    width: 9em;
+    width: 5em;
     height: 1em;
-    font-size: 5em;
+    font-size: 4em;
     line-height: 1em;
     overflow: hidden;
     background-color: black;
@@ -14,6 +17,7 @@
 }
 .setout{
     list-style: none;
+    color: #2196f3;
     padding-left: 18px;
     animation: moveUp 7s infinite;
 }
@@ -40,9 +44,12 @@
 }
 /*Texto a Ingresar*/
 input{
+    width: 15em;
+    height: 4em;
     background-color: black;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 input::placeholder{
     color:white;
@@ -55,10 +62,13 @@ input::placeholder{
 }
 #key{
     width: 50px;
+    height: 25px;
 }
 /*Category*/
 a {
   position: relative;
+  top: 10px;
+  left: -3em;
   display: inline-block;
   padding: 15px 30px;
   color: #2196f3;
@@ -132,5 +142,5 @@ a:hover span:nth-child(4){
 .lower-fixed-container{
     display: flex;
     position: absolute;
-    bottom: 1em;
+    bottom:0;
 }

@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="normalize.css">
     <script src="index.js"></script>
 
    
@@ -17,7 +18,7 @@
             <ul class="setout">
               <li>ENCRYPT</li>  
               <li>DECRYPT</li>
-              <li style="text-align: center;">CODE</li>
+              <li>CODE</li>
             </ul>
       </section>
       <!--Cuerpo de la Página (derecha)-->
@@ -39,7 +40,7 @@
               <span></span>
               ENCRYPT
             </a>  
-            <a  class="category"  onclick="decrypt()">
+            <a  class="category" onclick="decrypt()">
               <span></span>
               <span></span>
               <span></span>
@@ -51,6 +52,8 @@
         <div class="changeOption">
           <span>ENCRYPT/</span>
           <span>/ DECRYPT</span> <br>
+        </div> 
+       <div> 
           <input id ="output" type="text" placeholder="Pre visualizar el mensaje">
         </div> 
         <!--Botones-->
@@ -66,7 +69,7 @@
         <h4>©Caesar Cipher: Encrypt & Decrypt <br>
             @Carla Sanchez Correa
         </h4>
-        <ul>Social Media
+        <ul class="lower-fixed-container_ul">Social Media
           <li>#iconFacebook</li>
           <li>#iconInstagram</li>
           <li>#iconGitHub</li>
