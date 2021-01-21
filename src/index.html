@@ -5,7 +5,7 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style2.css" />
     <link rel="stylesheet" href="normalize.css">
-    <script src="index.js"></script>
+    <script src="cipher.js"></script>
 
    
   </head>
@@ -29,7 +29,7 @@
         </div >  
         <!--Boton Shift-->
         <div id="shift"><b>SHIFT:</b>
-          <input type="number" id="key" value = "1" />
+          <input type="number" id="key" value = "1" oninput="shift()">
         </div>
         <!--Botón para E // D-->
         <div class="chooseCategory-btn">
@@ -50,8 +50,8 @@
         </div>
         <!--Texto que ENCRY OR DES-->
         <div class="changeOption">
-          <span>ENCRYPT/</span>
-          <span>/ DECRYPT</span> <br>
+          <span id="encrypt"></span>
+          <span id="decrypt"></span> <br>
         </div> 
        <div> 
           <input id ="output" type="text" placeholder="Pre visualizar el mensaje">

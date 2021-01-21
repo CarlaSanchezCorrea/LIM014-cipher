@@ -141,15 +141,11 @@ a {
 /*Texto que ENCRY OR DES*/
 .changeOption{
     text-align: center;
-    margin: 1em 0 0.5em 0;
+    margin: 1.2em 0 0em 0;
 }
-/*Texto que ENCRY OR DES*/
-.changeOption{
-    text-align: center;
-    margin: 1em 0 0.5em 0;
-}
+
 #output{
-    margin: 0 0 1em 0;
+    margin: 0.5em 0 1em 0;
 }
 .botones{
     text-align: center;
