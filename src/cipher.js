@@ -1,30 +1,54 @@
-/*Obtener valor del texto a ingresar*/
-var start = function (){
-    var texto = document.getElementById('input').value;
-/*Enviar TEXTO A INGRESAR -> OUTPUT*/   
-    document.getElementById('output').value =texto;
-};
+  
+const cipher = {
+    encode: function(offSet,encode){ /*To encrypt*/
+    let originalTxt = document.getElementById('input'); /*Gets the value of the input*/
+    let cipheredTxt = document.getElementById('output'); /*Gets the value of the output*/
+    let key = document.getElementById('key'); /*Gets the value of the shift*/
+    let encBtn = document.getElementById('enc'); /*Gets the value of the button Encrypt*/
+    let decBtn = document.getElementById('dec'); /*Gets the value of the button Decryt*/
+    cipheredTxt.value = "";  /*'Output' blank*/ 
+        
+        for (let i = 0; i < originalTxt.value.length; i++) { /*Loops throughh each letter of the "input"*/
+                if (originalTxt.value.charCodeAt(i) == 32) /*If there is blank space === charCodeAte(32)"*/
+                    cipheredTxt.value += String.fromCharCode(32) /*So on "output" skipped "" */
+                else {
+                    let ascii = originalTxt.value.charCodeAt(i) + Number(key.value); /*Numb.AsciiOriginal + Shift*/
+                    if (ascii > 122) 
+                        ascii = (ascii-65) % 26 + 65; /*Caesar Cipher's formula* Encrypted*/
+                        cipheredTxt.value += String.fromCharCode(ascii); /*Concatenate letter by letter*/            
+            }
+        }
+        return cipheredTxt;
+    } ,
 
 
-/*Obtener valor del shift*/
-var shift = function (){
-    var clave = document.getElementById('key').value;
-   
-    console.log(clave);
-};
-/*Cambiar cuando escoga BOTON ENCRYT & Oculta DECRYT*/
-function encrypt(){
-    var optionEncrypt = document.getElementById('encrypt');
-    var optionDecrypt = document.getElementById('decrypt');
-    optionDecrypt.innerHTML = '';
-    optionEncrypt.innerHTML = 'Encrypted';
-};
-/*Cambiar cuando escoga BOTON DECRYT & Oculta ENCRYT*/
-function decrypt(){
-    var optionDecrypt = document.getElementById('decrypt');
-    var optionEncrypt = document.getElementById('encrypt');
-    optionEncrypt.innerHTML = '';
-    optionDecrypt.innerHTML = 'Decrypted';
-};
-/*Enviar TEXTO A INGRESAR -> OUTPUT*/
+
+        decode: function(offSet,decode){ /*To decrypt*/
+        let originalTxt = document.getElementById('input'); /*Gets the value of the input*/
+        let cipheredTxt = document.getElementById('output'); /*Gets the value of the output*/
+        let key = document.getElementById('key'); /*Gets the value of the shift*/
+        let encBtn = document.getElementById('enc'); /*Gets the value of the button Encrypt*/
+        let decBtn = document.getElementById('dec'); /*Gets the value of the button Decryt*/
+        cipheredTxt.value = "";  
+            
+            for (let i = 0; i < originalTxt.value.length; i++) { /*Loops throughh each letter of the "input"*/
+                    if (originalTxt.value.charCodeAt(i) == 32) /*If there is blank space === charCodeAte(32)"*/
+                        cipheredTxt.value += String.fromCharCode(32) /*So on "output" skipped "" */
+                    else {
+                        let ascii = originalTxt.value.charCodeAt(i) - Number(key.value); /*Numb.AsciiOriginal + Shift*/
+                        if (ascii > 122) 
+                            ascii = ((ascii-65) % 26) + 65; /*Caesar Cipher's formula Decryted*/
+                            cipheredTxt.value += String.fromCharCode(ascii); /*Concatenate letter by letter*/            
+                }
+            }
+            return cipheredTxt;
+        } 
+    };
+  
+
+
+
+  export default cipher;
+
+
 
