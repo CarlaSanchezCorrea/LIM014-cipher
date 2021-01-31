@@ -7,8 +7,6 @@
 * [4. MoodBoard](#4-MoodBoard)
 * [5. Sketch](#5-Sketch)
 * [6. Figma](#6-Figma)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [9. Checklist](#9-checklist)
 
 ***
 
