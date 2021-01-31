@@ -31,7 +31,7 @@ That is why this web application offers to manually download a Chrome Extension.
 *  Compile just the most relevant items
 The final result ::
 
-![MoodBoard](/MoodBoard_Caesar_Cipher.png)
+![MoodBoard](https://raw.githubusercontent.com/CarlaSanchezCorrea/LIM014-cipher/19a2f27d29d065c218ef1a6360cf5fb479ce259e/MoadBoard_Caesar_Cipher.png)
 
 
 ### DOM
