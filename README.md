@@ -29,12 +29,12 @@ Additionally I create surprise factor.
 
 That is why this web application offers to manually download a Chrome Extension.
 
-## 4. MoodBorad
+## 4. MoodBoard
 
-* [] Research similar websites
-* []  Discard those that are not functional
-* [] Compile just the most relevant items
-* [] MoodBoard
+* [ ] Research similar websites
+* [ ] Discard those that are not functional
+* [ ] Compile just the most relevant items
+* [ ] MoodBoard
 
 ### MoodBoard
 
@@ -45,20 +45,18 @@ That is why this web application offers to manually download a Chrome Extension.
 ### SKETCH
 
 First I sketch as the main concept only the functional part.
-![MoodBoard](https://user-images.githubusercontent.com/75837291/106395199-dc938400-63ce-11eb-8e9c-ee69f07f8145.png)
 
+![Sketch-Scheme](https://user-images.githubusercontent.com/75837291/106395358-e79ae400-63cf-11eb-885d-925c06676b72.png)
 
+### PROTOTYPE 
 
+* FeedBack : 
+  - Color
+  - Understandable
+  - Simple
+  
+![PROTOTYPE-Sketch](https://user-images.githubusercontent.com/75837291/106395199-dc938400-63ce-11eb-8e9c-ee69f07f8145.png)
 
-
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Manipulación de strings.
 * [ ] Uso de condicionales (if-else | switch | operador ternario)
 * [ ] Uso de bucles (for | for..in | for..of | while)
 * [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
