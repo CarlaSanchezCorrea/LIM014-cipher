@@ -20,58 +20,19 @@ The function of this project is to encrypt and decrypt any text respecting the A
 
 For those who want to keep both messages or passwords under fast and easy encryption.
 
-
+## 3. Process
 
 That is why this web application offers to manually download a Chrome Extension.
 
+### MoodBoard
 
+*  Research similar websites
+*  Discard those that are not functional
+*  Compile just the most relevant items
+The final result ::
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
+![MoodBoard](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.xatakawindows.com%2Faplicaciones-windows%2Fquieres-recuperar-el-boton-para-ver-imagenes-en-chrome-esta-extension-te-permite-volver-a-habilitarlo&psig=AOvVaw2KQ2uf3zxrkDvGmRGNhvhY&ust=1612200556504000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIiunZ7Zxu4CFQAAAAAdAAAAABAD)
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
-
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
-
-## 2. Resumen del proyecto
-
-¿Qué tengo que hacer exactamente? En este proyecto crearás una aplicación
-web que servirá para que el usuario pueda cifrar y descifrar un texto indicando
-un desplazamiento específico de caracteres (_offset_).
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría cifrar un mensaje y pensar en cómo debe ser esa experiencia de uso
-(qué pantallas, explicaciones, mensajes, colores, ¿marca?) etc. Algunas ideas de
-ejemplo:
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
-
-## 3. Objetivos de aprendizaje
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
-### HTML y CSS
-
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
