@@ -29,7 +29,8 @@ That is why this web application offers to manually download a Chrome Extension.
 *  Research similar websites
 *  Discard those that are not functional
 *  Compile just the most relevant items
-The final result ::
+    
+   The final result ::
 
 ![MoodBoard](https://raw.githubusercontent.com/CarlaSanchezCorrea/LIM014-cipher/19a2f27d29d065c218ef1a6360cf5fb479ce259e/MoadBoard_Caesar_Cipher.png)
 
