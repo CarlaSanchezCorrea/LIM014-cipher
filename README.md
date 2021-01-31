@@ -3,9 +3,9 @@
 
 * [1. Introduction](#1-Introduction)
 * [2. Target](#2-Target)
-* [3. Process](#3-Process)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [3. Solution approach](#3-Solution-approach)
+* [4. MoodBoard](#4-MoodBoard)
+* [5. Sketch](#5-Sketch)
 * [6. Hacker edition](#6-hacker-edition)
 * [7. Consideraciones técnicas](#7-consideraciones-técnicas)
 * [9. Checklist](#9-checklist)
@@ -14,28 +14,42 @@
 
 ## 1. Introduction
 
-The function of this project is to encrypt and decrypt any text respecting the Ascii characters from the number 65 to the number 90 and the character 32 " ".
+The function of this project is to encrypt and decrypt any text respecting the user's needs.
 
-## 2. Target
+## 2. Identify Target
 
 For those who want to keep both messages or passwords under fast and easy encryption.
 
-## 3. Process
+## 3. Solution approach
+
+For this project I was inspired by Caesar Cipher.
+
+I'll modify the 3-shift for any shift.
+Additionally I create surprise factor.
 
 That is why this web application offers to manually download a Chrome Extension.
 
-### MoodBoard
+## 4. MoodBorad
 
-*  Research similar websites
-*  Discard those that are not functional
-*  Compile just the most relevant items
-    
-   The final result ::
+* [] Research similar websites
+* []  Discard those that are not functional
+* [] Compile just the most relevant items
+* [] MoodBoard
+
+### MoodBoard
 
 ![MoodBoard](https://raw.githubusercontent.com/CarlaSanchezCorrea/LIM014-cipher/19a2f27d29d065c218ef1a6360cf5fb479ce259e/MoadBoard_Caesar_Cipher.png)
 
+## 5. Sketch
 
-### DOM
+### SKETCH
+
+First I sketch as the main concept only the functional part.
+![MoodBoard](https://user-images.githubusercontent.com/75837291/106395199-dc938400-63ce-11eb-8e9c-ee69f07f8145.png)
+
+
+
+
 
 * [ ] Uso de selectores del DOM.
 * [ ] Manejo de eventos del DOM.
