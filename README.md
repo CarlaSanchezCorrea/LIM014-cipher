@@ -2,8 +2,8 @@
 ## Index 
 
 * [1. Introduction](#1-Introduction)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
+* [2. Target](#2-Target)
+* [3. Process](#3-Process)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
 * [6. Hacker edition](#6-hacker-edition)
@@ -14,10 +14,17 @@
 
 ## 1. Introduction
 
-The function of this project is to encrypt and decrypt any text respecting the Ascii characters from the number 65 to the number 90 and the character 32 "".
+The function of this project is to encrypt and decrypt any text respecting the Ascii characters from the number 65 to the number 90 and the character 32 " ".
+
+## 2. Target
+
+For those who want to keep both messages or passwords under fast and easy encryption.
 
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
+That is why this web application offers to manually download a Chrome Extension.
+
+
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
