@@ -31,7 +31,7 @@ That is why this web application offers to manually download a Chrome Extension.
 *  Compile just the most relevant items
 The final result ::
 
-![MoodBoard](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/800px-Caesar3.svg.png)
+![MoodBoard](https://www.instagram.com/p/BYCuXfdgp_9/.svg.png)
 
 
 ### DOM
