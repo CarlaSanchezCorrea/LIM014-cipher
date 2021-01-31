@@ -59,7 +59,7 @@ First I sketch as the main concept only the functional part.
 
   You can visit [Figma](https://www.figma.com/file/3Ke6o7MSSgRzcXehpaBfrN/Sketch_Caesar_Cipher-%3CLab%3E-Project_01?node-id=2%3A0)
 
-![Figma-HomePage](https://user-images.githubusercontent.com/75837291/106395199-dc938400-63ce-11eb-8e9c-ee69f07f8145.png)
+![Figma-HomePage](https://user-images.githubusercontent.com/75837291/106396135-13b86400-63d4-11eb-93b0-7320ce483a2b.png)
 ![Figma-CipherPage](https://user-images.githubusercontent.com/75837291/106396139-1adf7200-63d4-11eb-831d-4d19c22812b3.png)
 
 
