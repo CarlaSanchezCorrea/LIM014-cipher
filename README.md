@@ -7,6 +7,8 @@
 * [4. MoodBoard](#4-MoodBoard)
 * [5. Sketch](#5-Sketch)
 * [6. Figma](#6-Figma)
+* [7.Final Design ](#7-Final-design)
+
 
 ***
 
@@ -62,5 +64,11 @@ First I sketch as the main concept only the functional part.
 ![Figma-HomePage](https://user-images.githubusercontent.com/75837291/106396135-13b86400-63d4-11eb-93b0-7320ce483a2b.png)
 ![Figma-CipherPage](https://user-images.githubusercontent.com/75837291/106396139-1adf7200-63d4-11eb-831d-4d19c22812b3.png)
 
+## 7. Final Design
+
+  For this last step I implement the download for who want to get extension version.
+  And also a link if you want to visit the web on Chrome Extension.
+  
+  
 
 
