@@ -123,6 +123,7 @@ a {
   display: inline-block;
   padding: 1em 1em 1em ;
   color: #2196f3;
+  font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   text-decoration: none;
@@ -209,6 +210,33 @@ a:hover span:nth-child(4){
 }
 .btn{
   margin-left: 0em;
+}
+.download{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+
+#btn-download{
+  position: relative;
+  top: 0em;
+  left: 0em;
+  display: inline-block;
+  padding: 0em 0em  ;
+  color: #2A40E8;
+  text-transform: uppercase;
+  letter-spacing: 0em;
+  text-decoration: none;
+  font-size: 1.1em;
+  overflow: hidden;
+  transition: 0s;
+  margin-left: 0em;
+
+}
+
+#decription-download{
+  padding-left: 10px;
 }
 
 
