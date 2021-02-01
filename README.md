@@ -50,7 +50,7 @@ First I sketch as the main concept only the functional part.
 
 ### PROTOTYPE 
 
-* FeedBack : 
+## FeedBack : 
   - Color
   - Understandable
   - Simple
@@ -68,6 +68,14 @@ First I sketch as the main concept only the functional part.
 
   For this last step I implement the download for who want to get extension version.
   And also a link if you want to visit the web on Chrome Extension.
+
+### Chrome Extension 
+
+  ![Chrome-Extension](https://user-images.githubusercontent.com/75837291/106395358-e79ae400-63cf-11eb-885d-925c06676b72.png)
+  
+### Web 
+  
+   ![Web-Design](https://user-images.githubusercontent.com/75837291/106409654-053b6e00-640f-11eb-9757-d9b6111c51f0.png)
   
   
 
