@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+.setout{
+  list-style: none;
+  color: #2196f3;
+  padding-left: 16px;
+  animation: moveUp 7s infinite;
+}
+@keyframes moveUp {
+  0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  25%{ margin-top: -1em;}
+  50%{ margin-top: -1em;}
+  55%{ margin-top: -2em;}
+  80%{ margin-top: -2em;}
+
+  85%{ margin-top: -1em;}
+  95%{ margin-top: -1em;}
+  100%{ margin-top: 0;}
+}
+/*Cuerpo de la Página (derecha)*/
+.container{
+  width: 30em;
+  padding: 0;
+  position: relative;
+  top: 0;
+  /*top: 25vh;*/
+  left: 05vw;
+  align-items: center;
+  justify-content:space-between;
+  display: block;
+  margin-top: 1em;
+}
+ #secTwo{
+  background-image: linear-gradient(45deg, #ADAEF5 0%, #FF8FC9 75%, #FF8FC9 100%);
+  /*height: 600px;*/
+  display: flex;
+ } 
+/*Texto a Ingresar*/
+#icon-secTwo{
+  height: 25em;
+  display: flex;
+  position: relative;
+  top: 20vh;
+  right: -10vw;
+}
+
+input{
+  width: 25em;
+  height: 4.3em;
+  background-color: #BEAEF1;
+  color: #3D3E59;
+  font-size: 2em;
+  text-align: center;
+  border-color: #9BA0DE;
+  border-radius: 50px;
+}
+input::placeholder{
+  color:white;
+} 
+/*Shift*/
+#shift{
+  font-family: 'Crushed', cursive;
+  font-size: 1.4em;
+  margin-top: 1em;
+  margin-left: 8em;
+  
+}
+#key{
+  width: 3em;
+  height: 1.5em;
+}
+/*Category*/
+a {
+  position: relative;
+  top: 1em;
+  left: 1em;
+  display: inline-block;
+  padding: 1em 1em 1em ;
+  color: #2196f3;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  font-size: 1.4em;
+  overflow: hidden;
+  transition: 0.2s;
+  margin-left: 0.5em;
+}
+a:hover{
+  cursor: pointer;
+  scale: 0.8;
+} 
+a span{
+  position: absolute;
+  display: block;
+}
+a span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+a:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+a span:nth-child(3){
+  bottom: 0;
+  right:-100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#2196f3);
+}
+a:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+a span:nth-child(2){
+  top: -100%;
+  right:0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#2196f3);
+}
+a:hover span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+a span:nth-child(4){
+  bottom: -100%;
+  left:0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#2196f3);
+}
+a:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+#button-star{
+  position: relative;
+  font-size: 40px;
+  top: 7.6em;
+  left: -8.5em;
+  display: inline-block;
+}
+
+/*Texto que ENCRY OR DES*/
+.changeOption{
+  text-align: center;
+  margin: 1.2em 0 0em 0;
+}
+
+#output{
+  margin: 0.5em 0 1em 0;
+}
+.botones{
+  text-align: center;
+}
+.btn{
+  margin-left: 0em;
+}
+
+
+/*Pie de Página*/
+
+.lower-fixed-container{
+  display: block;
+  background-image: linear-gradient(45deg, #ADAEF5 20%, #FF8FC9 75%, #FF8FC9 100%);
+  bottom: 20px;
+  padding: 10px 0 0 0;
+  margin: 0 0 0 0 ;
+  text-align: center;
+  color: #3D3E59;
+  font-family: Arial;
+
+}
+
+#gitHub{
+  font-family: Arial;
+  position: relative;
+  color: #3D3E59;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-size: 1.1em;
+  overflow: hidden;
+  transition: 0s;
+  margin-left: -1.5em;
+  margin-top: 0;
+}

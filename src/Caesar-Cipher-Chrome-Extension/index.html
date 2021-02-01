@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="normalize.css">
+
+  
+  </head>
+  <body> 
+    <article>
+      <!--Cuerpo de la Página (derecha)-->
+      <!--Texto a Ingresar-->
+      <section id = "secTwo" >
+        <div class="container">  
+        <div >
+          <input id="input" type="text" placeholder="…Enter your message here…">
+        </div >  
+        <!--Boton Shift-->
+        <div id="shift"><b>SHIFT:</b>
+          <input type="number" id="key" value = "1" >
+        </div>
+        <!--Botón para E // D-->
+        <div class="chooseCategory-btn">
+            <a class="category" id="enc">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              ENCRYPT
+            </a>  
+            <a  class="category" id="dec">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              DECRYPT
+            </a>
+        </div>
+        <!--Texto que ENCRY OR DES-->
+        <div class="changeOption">
+          <span id="encrypt"></span>
+          <span id="decrypt"></span> <br>
+        </div> 
+        <div id = "out"> 
+          <input id ="output" type="text" placeholder="...View Message...">
+        </div>
+        </a>
+      </div>
+      </section>
+    </article>
+    <!--Pie de Página-->
+    <footer>
+      <div class="lower-fixed-container">
+        <h4>©Caesar Cipher: Encrypt  Decrypt <br>
+          <a id="gitHub" target="_blank" href="https://carlasanchezcorrea.github.io/LIM014-cipher/src/index.html">
+            @Carla Sánchez Correa
+          </a>
+        </h4>
+
+        <!--
+        <ul class="lower-fixed-container_ul">Social Media
+          <li >#iconGitHub</li>
+        </ul> 
+      -->
+      </div>  
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

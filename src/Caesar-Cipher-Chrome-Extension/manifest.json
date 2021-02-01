@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Caesar Cipher",
+    "description": "Visit my website",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_title": "SUSCRIBETE"
+    }
+
+}
